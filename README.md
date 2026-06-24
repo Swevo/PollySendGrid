@@ -137,6 +137,7 @@ public class EmailService(ResilientSendGridClient client)
 | [PollyOpenAI](https://github.com/Swevo/PollyOpenAI) | Polly v8 for OpenAI .NET SDK |
 | [PollyMediatR](https://github.com/Swevo/PollyMediatR) | Polly v8 for MediatR |
 | [PollyHealthChecks](https://github.com/Swevo/PollyHealthChecks) | Polly v8 for ASP.NET Core Health Checks |
+| [PollyMassTransit](https://github.com/Swevo/PollyMassTransit) | Polly v8 for MassTransit |
 | [PollyBackoff](https://github.com/Swevo/PollyBackoff) | Polly v8 backoff helpers |
 
 ## License
