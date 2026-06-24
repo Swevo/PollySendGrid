@@ -1,0 +1,4 @@
+<Solution>
+  <Folder Name="/src/"><Project Path="src/PollySendGrid/PollySendGrid.csproj" /></Folder>
+  <Folder Name="/tests/"><Project Path="tests/PollySendGrid.Tests/PollySendGrid.Tests.csproj" /></Folder>
+</Solution>
