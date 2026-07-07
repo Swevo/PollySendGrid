@@ -8,12 +8,12 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollySendGrid</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2025 Justin Bannister</Copyright>
     <Description>Polly v8 resilience pipelines for SendGrid — retry, timeout, and circuit-breaker for ISendGridClient.SendEmailAsync. Includes a built-in SendGridTransientErrors predicate covering rate limiting (429), server errors (500), and service unavailability (503). Essential for any app that must reliably deliver transactional or marketing email.</Description>
     <PackageTags>polly;sendgrid;twilio-sendgrid;email;smtp;transactional-email;email-delivery;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;dependency-injection;csharp;nuget;notifications</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientSendGridClient wraps ISendGridClient in a Polly v8 ResiliencePipeline. Automatically throws SendGridTransientException for 429, 500, and 503 responses so Polly can retry them. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientSendGridClient wraps ISendGridClient in a Polly v8 ResiliencePipeline. Automatically throws SendGridTransientException for 429, 500, and 503 responses so Polly can retry them. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollySendGrid</RepositoryUrl>
@@ -40,8 +40,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
